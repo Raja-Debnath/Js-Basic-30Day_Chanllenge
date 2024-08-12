@@ -69,4 +69,43 @@ const look = {
 
 
 // task 5 
+ 
+// console.log(books);
 
+// task 6
+// books.forEach((e)=>console.log(e.author))
+
+// task 7
+
+const bk={
+  title: "To Kill a Mockingbird",
+  author: "Harper Lee",
+  genre: "Fiction",
+  published: 1960,
+  prt(){
+    console.log(this.title,this.published)
+  }
+}
+// bk.prt()
+
+
+// task 8 
+
+for (const key in bk) {
+ 
+    console.log(bk[key]);
+
+  
+
+}
+
+
+
+// task 9
+// let k = Object.keys(books[0])
+// let v = Object.values(books[0])
+
+// let k = Object.keys(books)
+// let v = Object.values(books)
+
+// console.log(k,v);
